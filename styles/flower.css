@@ -179,7 +179,7 @@ p {
     background-image: url("../styles/deal_bloom.png");
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 366.22px;
+    width: 366.22px;
     height: 206px;
     display: flex;
     flex-direction: column;
@@ -374,6 +374,7 @@ p {
 }
 
 @media screen and (max-width:576px) {
+
     .hide-on-mobile {
         display: none;
     }
@@ -386,24 +387,31 @@ p {
 
     .banner-text {
         text-align: start;
-        margin-left: 3px;
+        margin-left:20px;
     }
 
     .banner-img {
         margin-bottom: 30px;
     }
+    .plant-section{
+        text-align: center;
+    }
 
     .grid {
         grid-template-columns: repeat(2, 1fr);
+        margin-left: 5px;
 
     }
 
     .grid-container img {
         max-width: 180px;
     }
+    .grid-container{
+        margin-left: 5px;
+    }
 
     .grid-container button {
-        padding: 10px 40px;
+        padding: 10px 35px;
     }
 
     .plant-lover {
@@ -429,12 +437,13 @@ p {
     }
 
     .ana {
-        width: 400px;
-        margin-left: 10px;
+        max-width: 400px;
+        margin-left: 10px;;
     }
 
     .zabo {
-        max-width: 400px;
+        max-width: 370px;
+        margin-left: 10px;
         height: 206px;
         margin-left: 10px;
     }
@@ -455,7 +464,8 @@ p {
     }
 
     .join {
-        max-width: 500px;
+        margin-left: 5px;
+        max-width: 520px;
         max-height: 275px;
     }
 
@@ -464,7 +474,7 @@ p {
     }
 
     .join input {
-        width: 250px;
+        width: 255px;
     }
 
     .join button {
@@ -497,5 +507,8 @@ p {
         width: 100%;
         height: 100%;
         object-fit: cover;
+    }
+     .plant-section{
+        margin-left: 20px;
     }
 }
