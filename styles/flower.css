@@ -176,7 +176,7 @@ p {
 
 
 .bloom {
-    background-image: url("./deal_bloom.png");
+    background-image: url("../styles/deal_bloom.png");
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 366.22px;
