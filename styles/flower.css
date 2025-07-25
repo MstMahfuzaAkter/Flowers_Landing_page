@@ -428,7 +428,7 @@ p {
     }
 
     .grid-container img {
-        max-width: 150px;
+        max-width:80%;
     }
 
     .grid-container {
@@ -532,10 +532,8 @@ p {
     }
 
     .flower-store {
-        display: block;
-        width: px;
-        height: 396px;
-        object-fit: cover;
+        width:94%;
+        margin-left:2.5%;
     }
 
     .plant-section {
