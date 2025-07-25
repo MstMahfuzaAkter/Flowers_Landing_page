@@ -412,6 +412,7 @@ p {
     }
 
     .banner-img {
+        width: 100%;
         margin-bottom: 30px;
     }
 
@@ -457,18 +458,20 @@ p {
     }
 
     .bloom {
-        max-width: 420px;
-        margin-left: 30px;
+        display: flex;
+        width: 90%;
+        align-items: center;
+        margin-left:5%;
     }
 
     .ana {
-        max-width: 420px;
-        margin-left: 30px;
+        width: 90%;
+        margin-left:5%;
     }
 
     .zabo {
-        max-width: 370px;
-        margin-left: 30px;
+        width: 90%;
+        margin-left:5%;
         height: 206px;
     }
 
